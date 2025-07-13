@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "scripts": {
+    "start": "node -e 'console.clear()' && node --no-warnings ./src/index.js"
+  },
+  "devDependencies": {
+    "dotenv": "^17.2.0"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "discord.js": "^14.21.0",
+    "kafka.db": "^1.0.0",
+    "zod": "^4.0.5"
+  }
+}
